@@ -245,9 +245,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Project Maintainer**: Pravin Kumar S
 
-- 📧 Email: [Your Email]
-- 💼 LinkedIn: [Your LinkedIn]
-- 🐙 GitHub: [Your GitHub]
+- 📧 Email: winnypine@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/pravin-kumar-34b172216/
+- 🐙 GitHub: prawin4E
 
 ---
 
