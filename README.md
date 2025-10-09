@@ -40,7 +40,7 @@ Each implementation is organized in its own folder with dedicated documentation,
 ### 1️⃣ Linear Regression
 **📁 [Implementation/LinearRegression](Implementation/LinearRegression/)**
 
-A comprehensive car price prediction project demonstrating various linear regression techniques.
+A comprehensive car price prediction project demonstrating various **regression** techniques for predicting continuous values.
 
 **Topics Covered:**
 - Linear Regression (OLS)
@@ -51,18 +51,41 @@ A comprehensive car price prediction project demonstrating various linear regres
 - Data Preprocessing
 - Model Evaluation
 
-**Dataset:** Car Details from CarDekho  
+**Dataset:** Car Details from CarDekho
+**Type:** Regression (Continuous Prediction)
 **Status:** ✅ Complete
 
 [📖 View Full Documentation →](Implementation/LinearRegression/README.md)
 
 ---
 
-### 2️⃣ Coming Soon... 🚀
+### 2️⃣ Logistic Regression
+**📁 [Implementation/LogisticRegression](Implementation/LogisticRegression/)**
+
+A comprehensive heart disease prediction project demonstrating **classification** techniques for binary prediction.
+
+**Topics Covered:**
+- Logistic Regression (Basic)
+- L2 Regularization (Ridge)
+- L1 Regularization (Lasso)
+- Classification Metrics (Accuracy, Precision, Recall, F1, ROC-AUC)
+- Confusion Matrix Analysis
+- Cross-Validation
+- Hyperparameter Tuning
+- **Detailed comparison with Linear Regression**
+
+**Dataset:** Heart Disease UCI Dataset
+**Type:** Classification (Binary Prediction)
+**Status:** ✅ Complete
+
+[📖 View Full Documentation →](Implementation/LogisticRegression/README.md)
+
+---
+
+### 3️⃣ Coming Soon... 🚀
 
 More machine learning implementations will be added soon:
 
-- [ ] Logistic Regression
 - [ ] Decision Trees
 - [ ] Random Forest
 - [ ] Support Vector Machines (SVM)
@@ -81,11 +104,16 @@ More machine learning implementations will be added soon:
 MachineLearning/
 │
 ├── dataset/                                    # Shared datasets
-│   └── CAR DETAILS FROM CAR DEKHO.csv
+│   ├── CAR DETAILS FROM CAR DEKHO.csv          # Car price dataset
+│   └── heart.csv                               # Heart disease dataset
 │
 ├── Implementation/                             # All implementations
 │   ├── LinearRegression/                       # Linear Regression project
 │   │   ├── LinearRegression.ipynb              # Jupyter notebook
+│   │   └── README.md                           # Detailed documentation
+│   │
+│   ├── LogisticRegression/                     # Logistic Regression project
+│   │   ├── LogisticRegression.ipynb            # Jupyter notebook
 │   │   └── README.md                           # Detailed documentation
 │   │
 │   └── [Future implementations...]            # More to come
@@ -149,6 +177,7 @@ All datasets used in this repository are stored in the `dataset/` folder:
 | Dataset | Used In | Size | Description |
 |---------|---------|------|-------------|
 | CAR DETAILS FROM CAR DEKHO.csv | Linear Regression | ~4,340 records | Used car pricing data with features like year, km_driven, fuel type, etc. |
+| heart.csv | Logistic Regression | ~300 records | Heart disease UCI dataset with 13 clinical attributes for binary classification |
 
 ---
 
@@ -156,12 +185,16 @@ All datasets used in this repository are stored in the `dataset/` folder:
 
 ### Running an Implementation
 
+**Linear Regression (Continuous Prediction):**
 ```bash
-# Navigate to the specific implementation
 cd Implementation/LinearRegression
-
-# Start Jupyter Notebook
 jupyter notebook LinearRegression.ipynb
+```
+
+**Logistic Regression (Binary Classification):**
+```bash
+cd Implementation/LogisticRegression
+jupyter notebook LogisticRegression.ipynb
 ```
 
 ### Using Virtual Environment
@@ -273,10 +306,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Repository Stats
 
-- **Total Implementations**: 1 (Growing)
-- **Total Notebooks**: 1
-- **Lines of Code**: 1000+
-- **Documentation Pages**: 600+
+- **Total Implementations**: 2 (Growing)
+- **Total Notebooks**: 2
+- **Lines of Code**: 2500+
+- **Documentation Pages**: 1200+
+- **Algorithms Covered**: Regression & Classification
 
 ---
 
