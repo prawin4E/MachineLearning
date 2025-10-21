@@ -82,18 +82,70 @@ A comprehensive heart disease prediction project demonstrating **classification*
 
 ---
 
-### 3️⃣ Coming Soon... 🚀
+### 3️⃣ K-Nearest Neighbors (KNN)
+**📁 [Implementation/KNN](Implementation/KNN/)**
+
+A comprehensive iris flower classification project demonstrating **K-Nearest Neighbors** algorithm for multi-class classification.
+
+**Topics Covered:**
+- KNN Algorithm (instance-based learning)
+- Distance Metrics (Euclidean, Manhattan, Minkowski)
+- K Value Optimization
+- Multi-class Classification
+- Weighted vs Uniform Voting
+- Cross-Validation
+
+**Dataset:** Iris Flower Dataset (UCI ML Repository)
+**Type:** Classification (Multi-class)
+**Status:** ✅ Complete
+
+[📖 View Full Documentation →](Implementation/KNN/README.md)
+
+---
+
+### 4️⃣ Support Vector Machines (SVM)
+**📁 [Implementation/SVM](Implementation/SVM/)**
+
+Support Vector Machine implementations for classification tasks.
+
+**Status:** ✅ Complete
+
+---
+
+### 5️⃣ K-Means Clustering
+**📁 [Implementation/KMeansClustering](Implementation/KMeansClustering/)**
+
+A comprehensive unsupervised learning project demonstrating **K-Means Clustering** with **Elbow Method** for customer segmentation.
+
+**Topics Covered:**
+- K-Means Clustering Algorithm
+- Elbow Method for Optimal K Selection
+- Silhouette Score Analysis
+- Davies-Bouldin Index
+- Calinski-Harabasz Score
+- Customer Segmentation
+- Cluster Profiling and Business Insights
+- 2D and 3D Cluster Visualization
+
+**Dataset:** Mall Customers Dataset
+**Type:** Unsupervised Learning (Clustering)
+**Status:** ✅ Complete
+
+[📖 View Full Documentation →](Implementation/KMeansClustering/README.md)
+
+---
+
+### 6️⃣ Coming Soon... 🚀
 
 More machine learning implementations will be added soon:
 
 - [ ] Decision Trees
 - [ ] Random Forest
-- [ ] Support Vector Machines (SVM)
-- [ ] K-Nearest Neighbors (KNN)
 - [ ] Naive Bayes
-- [ ] K-Means Clustering
 - [ ] Neural Networks
 - [ ] Deep Learning Models
+- [ ] Hierarchical Clustering
+- [ ] DBSCAN Clustering
 - [ ] Time Series Analysis
 
 ---
@@ -105,16 +157,34 @@ MachineLearning/
 │
 ├── dataset/                                    # Shared datasets
 │   ├── CAR DETAILS FROM CAR DEKHO.csv          # Car price dataset
-│   └── heart.csv                               # Heart disease dataset
+│   ├── heart.csv                               # Heart disease dataset
+│   └── Mall_Customers.csv                      # Mall customers dataset (optional)
 │
 ├── Implementation/                             # All implementations
 │   ├── LinearRegression/                       # Linear Regression project
 │   │   ├── LinearRegression.ipynb              # Jupyter notebook
-│   │   └── README.md                           # Detailed documentation
+│   │   ├── README.md                           # Detailed documentation
+│   │   └── Notes.md                            # Additional notes
 │   │
 │   ├── LogisticRegression/                     # Logistic Regression project
 │   │   ├── LogisticRegression.ipynb            # Jupyter notebook
+│   │   ├── README.md                           # Detailed documentation
+│   │   └── DATASET_INSTRUCTIONS.md             # Dataset guide
+│   │
+│   ├── KNN/                                    # K-Nearest Neighbors project
+│   │   ├── KNN.ipynb                           # Jupyter notebook
+│   │   ├── README.md                           # Detailed documentation
+│   │   └── DATASET_INSTRUCTIONS.md             # Dataset guide
+│   │
+│   ├── SVM/                                    # Support Vector Machines
+│   │   ├── SVM.ipynb                           # Jupyter notebook
 │   │   └── README.md                           # Detailed documentation
+│   │
+│   ├── KMeansClustering/                       # K-Means Clustering project
+│   │   ├── KMeansClustering.ipynb              # Jupyter notebook (coming soon)
+│   │   ├── kmeans_script.py                    # Complete Python script
+│   │   ├── README.md                           # Detailed documentation
+│   │   └── DATASET_INSTRUCTIONS.md             # Dataset guide
 │   │
 │   └── [Future implementations...]            # More to come
 │
@@ -306,11 +376,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Repository Stats
 
-- **Total Implementations**: 2 (Growing)
-- **Total Notebooks**: 2
-- **Lines of Code**: 2500+
-- **Documentation Pages**: 1200+
-- **Algorithms Covered**: Regression & Classification
+- **Total Implementations**: 5 (Growing)
+- **Total Notebooks**: 5+
+- **Lines of Code**: 5000+
+- **Documentation Pages**: 3000+
+- **Algorithms Covered**: Regression, Classification & Clustering
 
 ---
 
